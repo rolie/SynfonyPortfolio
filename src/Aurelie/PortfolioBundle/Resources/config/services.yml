@@ -1,0 +1,4 @@
+services:
+#    aurelie_portfolio.example:
+#        class: Aurelie\PortfolioBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

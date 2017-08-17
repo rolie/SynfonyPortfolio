@@ -1,0 +1,4 @@
+aurelie_portfolio:
+    resource: "@AureliePortfolioBundle/Resources/config/routing.yml"
+    prefix:   /
+

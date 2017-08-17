@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<langages>
+    <langage>
+        <infoPrincipale>PHP</infoPrincipale>
+    </langage>
+    <langage>
+        <infoPrincipale>HTML</infoPrincipale>
+    </langage>
+    <langage>
+        <infoPrincipale>AJAX</infoPrincipale>
+    </langage>
+    <langage>
+        <infoPrincipale>SYMFONY</infoPrincipale>
+    </langage>
+    <langage>
+        <infoPrincipale>JAVA</infoPrincipale>
+    </langage>
+</langages>

@@ -1,0 +1,3 @@
+aurelie_portfolio_home:
+    path:      /
+    defaults: { _controller: AureliePortfolioBundle:Fichier:index }

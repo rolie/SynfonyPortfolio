@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="portfolio aurelie gerland developpeur web PHP MySQL symfony javascript ajax jquery poo" />
+        <meta name="author" content="aurelie gerland" />
+        
+        {% stylesheets filter='cssrewrite, ?scssphp' 'bundles/aurelieportfolio/css/*' %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+        {% endstylesheets %}
+
+        <title>Aurélie Gerland</title>
+    </head>
+
+   <body class="container-fluid"> 
+        <!-- zone d'en-tete -->
+        <header class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Aurélie Gerland</h1>
+                <h2>Développeur Web</h2>
+            </div>   
+        </header>
+        <div class="row">
+            <nav class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                {% block menu %}
+                    <p>je suis le menu</p>
+                {% endblock %}
+            </nav>
+            
+            <section class="col-xs-12 col-sm-12 col-md-8 col-lg-10"> 
+                {% block section %}
+                    <p>Je suis la section</p>
+                {% endblock %}
+            </section>
+        </div>
+        <div class="row">    
+            <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                {% block piedPage %}
+                    <p>Je suis le pied de page</p>
+                {% endblock %}
+            </footer>
+        </div>
+  </body>
+</html>
+    
+{% javascripts filter='?jsqueeze' 'bundles/aurelieportfolio/js/*' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
